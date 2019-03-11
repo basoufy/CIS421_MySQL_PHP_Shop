@@ -25,6 +25,28 @@
             "transform" : "translate(0px, -"+vscroll/2+"px)"
         });
     });
+
+    function detailsmodal (id) {
+        var data = {'id': id};
+        var url = "includes/detailsmodal.php";
+
+        jQuery.ajax({
+            url     : url,
+            type    : "POST",
+            data    : data,
+            success : function (res) {
+                if (jQuery('#details-modal').length) {
+                    jQuery('#details-modal').remove();
+                }
+                jQuery('body').append(res);
+                jQuery('#details-modal').modal('toggle');
+            },
+            error   : function () {
+                /*alert('Something went wrong');*/
+            }
+        });
+    }
+
 </script>
 </body>
 </html>
