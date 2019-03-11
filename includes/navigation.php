@@ -5,6 +5,7 @@ $pquery = $db->query($sql);
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <a href="index.php" class="navbar-brand">Shaunta's Boutique</a>
+        <ul class="nav navbar-nav">
         <?php while ($parent = mysqli_fetch_assoc($pquery) ) : ?>
             <?php
                 $parent_id = $parent['id'];
@@ -12,7 +13,6 @@ $pquery = $db->query($sql);
                 $cquery = $db->query($sql2);
             ?>
             <!-- Menu Items -->
-            <ul class="nav navbar-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $parent['category'];?><span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
