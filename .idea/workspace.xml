@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875bec50-24c1-41d5-a5c8-d5c933e43f1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/brands.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/head.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/navigation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/init.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/helpers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/headerlogo/back-flower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/headerlogo/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/headerlogo/fore-flower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/headerlogo/text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/boys1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/boys2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/boys3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/boys4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/boys5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/boys6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/bunny.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/dress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/girls1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/girls2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/girls3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/girls4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/men7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/shoes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/products/women7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/detailsmodal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/headerfull.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/leftbar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/rightbar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/npm.js" beforeDir="false" />
-    </list>
+    <list default="true" id="875bec50-24c1-41d5-a5c8-d5c933e43f1a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/421/includes/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -238,8 +172,7 @@
       <server host="Localhost" id="5069e640-bf45-4abd-91a5-ea9fb68ad494" name="LocalHost" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -355,7 +288,7 @@
       <updated>1552200500519</updated>
       <workItem from="1552200503903" duration="12714000" />
       <workItem from="1552265823704" duration="4609000" />
-      <workItem from="1552277572057" duration="28833000" />
+      <workItem from="1552277572057" duration="28879000" />
     </task>
     <task id="LOCAL-00001" summary="added nav and menu, added JQuery parallax effect for flowers and for main logo,">
       <created>1552281440890</created>
@@ -413,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552353607941</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed nav bar on /421/index.php">
+      <created>1552360186264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552360186265</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46156000" />
+    <option name="totallyTimeSpent" value="46202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -479,7 +419,8 @@
     <MESSAGE value="converted modals to update dynamically from database's table products" />
     <MESSAGE value="added administrator page with all admin includes (brands, footer, head, index, nav), configured dynamic brands page" />
     <MESSAGE value="added sql insert query for admin/brand page, protected against sql injection as well" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sql insert query for admin/brand page, protected against sql injection as well" />
+    <MESSAGE value="fixed nav bar on /421/index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed nav bar on /421/index.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/footer.php" />
@@ -723,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/421/includes/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
