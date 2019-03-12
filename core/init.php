@@ -7,4 +7,5 @@ if (mysqli_connect_errno()) {
     die();
 }
 
-define('BASEURL', '/');
+include '../config.php';
+require_once BASEURL.'helpers/helpers.php';
