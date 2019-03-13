@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="875bec50-24c1-41d5-a5c8-d5c933e43f1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/421/admin/categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/421/admin/products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/421/admin/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/admin/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/421/helpers/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/helpers/helpers.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,32 +29,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/421/admin/brands.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/421/admin/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+            <state relative-caret-position="58">
+              <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
               <folding>
-                <element signature="e#3006#3036#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/421/admin/categories.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/421/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="548">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/421/admin/includes/navigation.php">
+        <entry file="file://$PROJECT_DIR$/421/helpers/helpers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="456">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -121,8 +122,11 @@
         <option value="$PROJECT_DIR$/421/admin/index.php" />
         <option value="$PROJECT_DIR$/421/includes/navigation.php" />
         <option value="$PROJECT_DIR$/421/admin/brands.php" />
-        <option value="$PROJECT_DIR$/421/admin/includes/navigation.php" />
         <option value="$PROJECT_DIR$/421/admin/categories.php" />
+        <option value="$PROJECT_DIR$/421/admin/includes/navigation.php" />
+        <option value="$PROJECT_DIR$/421/helpers/helpers.php" />
+        <option value="$PROJECT_DIR$/421/css/main.css" />
+        <option value="$PROJECT_DIR$/421/admin/products.php" />
       </list>
     </option>
   </component>
@@ -181,6 +185,12 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
               <item name="421" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="421" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -230,7 +240,7 @@
       <workItem from="1552200503903" duration="12714000" />
       <workItem from="1552265823704" duration="4609000" />
       <workItem from="1552277572057" duration="28879000" />
-      <workItem from="1552360220010" duration="9978000" />
+      <workItem from="1552360220010" duration="15408000" />
     </task>
     <task id="LOCAL-00001" summary="added nav and menu, added JQuery parallax effect for flowers and for main logo,">
       <created>1552281440890</created>
@@ -302,11 +312,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552368832617</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="created categories admin page, created a form to add new categories, did all form validation so that input isn't blank/already exists. Updates into sql database.">
+      <created>1552447780731</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552447780731</updated>
+    </task>
+    <task id="LOCAL-00012" summary="completed admin categories page. admin now able to edit and delete categories from database.">
+      <created>1552452985482</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552452985482</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56180000" />
+    <option name="totallyTimeSpent" value="61610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -370,11 +394,11 @@
     <MESSAGE value="added sql insert query for admin/brand page, protected against sql injection as well" />
     <MESSAGE value="fixed nav bar on /421/index.php" />
     <MESSAGE value="added update, insert, and delete queries on the brand page. brand page complete." />
-    <option name="LAST_COMMIT_MESSAGE" value="added update, insert, and delete queries on the brand page. brand page complete." />
+    <MESSAGE value="created categories admin page, created a form to add new categories, did all form validation so that input isn't blank/already exists. Updates into sql database." />
+    <MESSAGE value="completed admin categories page. admin now able to edit and delete categories from database." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed admin categories page. admin now able to edit and delete categories from database." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/rentals.php" />
-    <entry file="file://$PROJECT_DIR$/templates/rented_table.php" />
     <entry file="file://$PROJECT_DIR$/templates/searching_table.php" />
     <entry file="file://$PROJECT_DIR$/templates/add_drop_books.php" />
     <entry file="file://$PROJECT_DIR$/templates/navbar.php" />
@@ -416,13 +440,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/421/includes/rightbar.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/421/helpers/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/421/includes/headerfull.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -493,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/421/admin/includes/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/421/admin/brands.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -512,8 +522,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/421/admin/categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="407">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/421/admin/includes/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/421/helpers/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/421/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/421/admin/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
