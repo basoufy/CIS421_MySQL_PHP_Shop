@@ -4,7 +4,7 @@ $pquery = $db->query($sql);
 ?>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <a href="index.php" class="navbar-brand">Shaunta's Boutique</a>
+        <a href="index.php" class="navbar-brand">Raed's Clothing Shop</a>
         <ul class="nav navbar-nav">
             <?php while ($parent = mysqli_fetch_assoc($pquery)) : ?>
             <?php

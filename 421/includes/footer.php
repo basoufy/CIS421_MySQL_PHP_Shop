@@ -1,7 +1,9 @@
 </div>
 
 <!-- Footer -->
-<footer class="text-center" id="footer">&copy; Copyright 2013-2015 Shaunta's Boutique</footer>
+<footer class="text-center" id="footer">&copy; <?php
+    $thisYear = (int)date('Y');
+    echo $thisYear;?> Raed's Clothing Shop.</footer>
 
 
 
