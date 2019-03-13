@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="875bec50-24c1-41d5-a5c8-d5c933e43f1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/421/admin/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/421/admin/parsers/child_categories.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/admin/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/admin/includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/helpers/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/helpers/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/421/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/admin/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/421/admin/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/admin/products.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/421/admin/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+            <state relative-caret-position="397">
+              <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
               </folding>
@@ -42,19 +42,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/421/css/main.css">
+        <entry file="file://$PROJECT_DIR$/421/admin/parsers/child_categories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="136">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/421/helpers/helpers.php">
+        <entry file="file://$PROJECT_DIR$/421/admin/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,6 @@
         <option value="$PROJECT_DIR$/421/core/init.php" />
         <option value="$PROJECT_DIR$/421/includes/footer.php" />
         <option value="$PROJECT_DIR$/421/includes/head.php" />
-        <option value="$PROJECT_DIR$/421/admin/includes/footer.php" />
         <option value="$PROJECT_DIR$/421/admin/includes/head.php" />
         <option value="$PROJECT_DIR$/421/admin/index.php" />
         <option value="$PROJECT_DIR$/421/includes/navigation.php" />
@@ -126,6 +125,8 @@
         <option value="$PROJECT_DIR$/421/admin/includes/navigation.php" />
         <option value="$PROJECT_DIR$/421/helpers/helpers.php" />
         <option value="$PROJECT_DIR$/421/css/main.css" />
+        <option value="$PROJECT_DIR$/421/admin/parsers/child_categories.php" />
+        <option value="$PROJECT_DIR$/421/admin/includes/footer.php" />
         <option value="$PROJECT_DIR$/421/admin/products.php" />
       </list>
     </option>
@@ -240,7 +241,7 @@
       <workItem from="1552200503903" duration="12714000" />
       <workItem from="1552265823704" duration="4609000" />
       <workItem from="1552277572057" duration="28879000" />
-      <workItem from="1552360220010" duration="15408000" />
+      <workItem from="1552360220010" duration="19892000" />
     </task>
     <task id="LOCAL-00001" summary="added nav and menu, added JQuery parallax effect for flowers and for main logo,">
       <created>1552281440890</created>
@@ -326,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552452985482</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added dynamic products page for admin">
+      <created>1552456096166</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552456096166</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61610000" />
+    <option name="totallyTimeSpent" value="66094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -396,10 +404,10 @@
     <MESSAGE value="added update, insert, and delete queries on the brand page. brand page complete." />
     <MESSAGE value="created categories admin page, created a form to add new categories, did all form validation so that input isn't blank/already exists. Updates into sql database." />
     <MESSAGE value="completed admin categories page. admin now able to edit and delete categories from database." />
-    <option name="LAST_COMMIT_MESSAGE" value="completed admin categories page. admin now able to edit and delete categories from database." />
+    <MESSAGE value="added dynamic products page for admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dynamic products page for admin" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/searching_table.php" />
     <entry file="file://$PROJECT_DIR$/templates/add_drop_books.php" />
     <entry file="file://$PROJECT_DIR$/templates/navbar.php" />
     <entry file="file://$PROJECT_DIR$/templates/add_drop_employee.php" />
@@ -489,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/421/admin/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/421/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -548,10 +549,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/421/admin/parsers/child_categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/421/admin/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/421/admin/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+        <state relative-caret-position="397">
+          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
