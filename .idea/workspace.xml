@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="875bec50-24c1-41d5-a5c8-d5c933e43f1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/admin/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/admin/products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/421/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/421/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/images/headerlogo/text.png" beforeDir="false" afterPath="$PROJECT_DIR$/421/images/headerlogo/text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/includes/detailsmodal.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/includes/detailsmodal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/421/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/includes/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/421/includes/headerfull.php" beforeDir="false" afterPath="$PROJECT_DIR$/421/includes/headerfull.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/421/includes/headerfull.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -95,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/421/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="262">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -271,7 +265,7 @@
       <workItem from="1552200503903" duration="12714000" />
       <workItem from="1552265823704" duration="4609000" />
       <workItem from="1552277572057" duration="28879000" />
-      <workItem from="1552360220010" duration="33957000" />
+      <workItem from="1552360220010" duration="34537000" />
     </task>
     <task id="LOCAL-00001" summary="added nav and menu, added JQuery parallax effect for flowers and for main logo,">
       <created>1552281440890</created>
@@ -378,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552504310780</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="trying to fix the logo on home page">
+      <created>1552525664998</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552525664998</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80159000" />
+    <option name="totallyTimeSpent" value="80739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -451,7 +452,8 @@
     <MESSAGE value="added dynamic products page for admin" />
     <MESSAGE value="added dynamic options to pull from each category (parent/child) also added several forms for product input." />
     <MESSAGE value="on admin/product/add product page, added module to input and save sizes and quantities for new products." />
-    <option name="LAST_COMMIT_MESSAGE" value="on admin/product/add product page, added module to input and save sizes and quantities for new products." />
+    <MESSAGE value="trying to fix the logo on home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to fix the logo on home page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.script.js" />
@@ -607,20 +609,6 @@
     <entry file="file://$PROJECT_DIR$/421/includes/leftbar.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/421/includes/headerfull.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/421/includes/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/421/images/headerlogo/text.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -630,10 +618,24 @@
     <entry file="file://$PROJECT_DIR$/421/images/headerlogo/text1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/421/includes/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/421/includes/headerfull.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/421/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="262">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
         </state>
       </provider>
     </entry>
