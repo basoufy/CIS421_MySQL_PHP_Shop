@@ -11,7 +11,7 @@
     jQuery(window).scroll(function(){
         var vscroll = jQuery(this).scrollTop();
         //console.log(vscroll);
-        jQuery('#logotext').css({
+        jQuery('#logo-text').css({
             "transform" : "translate(0px, "+vscroll/2+"px)"
         });
 

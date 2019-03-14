@@ -16,6 +16,18 @@ body {
     background-attachment: fixed;
 }
 
+#new-logo {
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/headerlogo/text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 180px;
+    top: 50%;
+    margin-top: -90px;
+}
+
 #logotext {
     position: absolute;
     width: 100%;
