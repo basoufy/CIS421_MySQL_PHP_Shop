@@ -13,10 +13,10 @@ $featured = $db->query($sql);
 <!-- Main Content -->
 <div class="col-md-8">
     <div class="row">
-        <h2 class="text-center">Feature Products</h2>
+        <h2 class="text-center">Featured Products</h2>
         <!-- Goes through each row and assigns each row to product after loop -->
         <?php while($product = mysqli_fetch_assoc($featured)) : ?>
-            <div class="col-sm-3 text-center">
+            <div class="col-sm-3 text-center" style="padding: 50px auto;">
                 <h4><?= $product['title']; ?></h4>
                 <img src="<?= $product['image']; ?>" alt="<?= $product['title']; ?>" class="img-thumb"/>
                 <p class="list-price text-danger">List Price: <s>$<?= $product['list_price']; ?></s></p>
