@@ -13,6 +13,7 @@ $errors = array();
     body {
         background-image: url(/421/images/headerlogo/background.png);
         background-size: 100vw 100vh;
+        background-attachment: fixed;
     }
 </style>
 <div id="login-form">
@@ -53,7 +54,8 @@ $errors = array();
                     echo display_errors($errors);
                 } else{
                     // log user in
-                    echo 'log user in';
+                    $user_id = $user['id'];
+                    login($user_id);
                 }
             }
 
