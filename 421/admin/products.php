@@ -71,15 +71,6 @@ if(isset($_GET['add']) || isset($_GET['edit'])) {
         $sizesArray = array();
     }
     if($_POST) {
-//        //$title = sanitize($_POST['title']);
-//        //$brand = sanitize($_POST['brand']);
-//        ((isset($_POST['child']))?$categories=sanitize($_POST['child']):$categories='');
-//        $price = sanitize($_POST['price']);
-//        $list_price = sanitize($_POST['list_price']);
-//        $sizes = sanitize($_POST['sizes']);
-//        $description = sanitize($_POST['description']);
-
-        $dbpath = '';
         $errors = array();
         $required = array('title', 'brand', 'price', 'parent', 'child', 'sizes');
         foreach($required as $field) {
@@ -121,7 +112,9 @@ if(isset($_GET['add']) || isset($_GET['edit'])) {
             echo display_errors($errors);
         } else {
             /* Upload file and insert into database. */
-            move_uploaded_file($tmpLoc, $uploadPath);
+            if(!empty($_FILES)){
+                move_uploaded_file($tmpLoc, $uploadPath);
+            }
             $insertSql = "INSERT INTO products (title, price, list_price, brand, categories, image, description, sizes) VALUES ('{$title}', '{$price}', '{$list_price}', '{$brand}', '{$category}', '{$dbpath}', '{$description}', '{$sizes}')";
             if (isset($_GET['edit'])){
                 $insertSql = "UPDATE products SET `title` = '$title', `price` ='$price', `list_price` = '$list_price', `brand` = '$brand', `categories` = '$category', `sizes` = '$sizes', `image` = '$dbpath', `description` = '$description' WHERE id = '$edit_id'";

@@ -46,11 +46,11 @@
                                 <div class="form-group">
                                     <div class="col-xs-3">
                                         <label for="quantity">Quantity:</label>
-                                        <input type="text" class="form-control" id="quantity" name="quantity">
+                                        <input min="0" type="number" class="form-control" id="quantity" name="quantity">
                                     </div>
                                     <div class="col-xs-9"></div>
                                 </div>
-                                <br><br>
+                                <br><br><br><br>
                                 <div class="form-group">
                                     <label for="size">Size: </label>
                                     <select name="size" id="size" class="form-control">
