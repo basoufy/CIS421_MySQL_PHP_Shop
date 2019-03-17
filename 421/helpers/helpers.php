@@ -58,3 +58,8 @@ function has_permission($permission = 'admin'){
     return false;
 
 }
+
+function pretty_date($date){
+    // TODO: change date time zone to appropriate
+    return date("M d, Y h:i A", strtotime($date));
+}
