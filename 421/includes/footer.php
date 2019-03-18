@@ -50,6 +50,7 @@
         var size = jQuery('#size').val();
         var quantity = jQuery('#quantity').val();
         var available = jQuery('#available').val();
+        available = parseInt(available);
         var error = '';
         var data = jQuery('#add_product_form').serialize();
         if(size == '' || quantity == '' || quantity == 0){

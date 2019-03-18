@@ -24,7 +24,7 @@
         $item_match = 0;
         $new_items = array();
         foreach($previous_items as $pitem){
-            if($item[0]['id'] == $pitem['id'] && $item[0]['size'] = $pitem['size']){
+            if($item[0]['id'] == $pitem['id'] && $item[0]['size'] == $pitem['size']){
                 $pitem['quantity'] = $pitem['quantity'] + $item[0]['quantity'];
                 if($pitem['quantity'] > $available){
                     $pitem['quantity'] = $available;
