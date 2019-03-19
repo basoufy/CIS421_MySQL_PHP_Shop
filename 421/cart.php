@@ -261,6 +261,9 @@ if ($cart_id != '') {
             },
         });
     }
+
+    Stripe('<?=STRIPE_PUBLIC?>');
+
 </script>
 
 
