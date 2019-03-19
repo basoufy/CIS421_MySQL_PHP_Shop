@@ -6,6 +6,9 @@ if(!is_logged_in()){
 include 'includes/head.php';
 include 'includes/navigation.php';
 
+// Turn off all error reporting
+error_reporting(0);
+
 // Delete product
 if(isset($_GET['delete'])){
     $id = sanitize($_GET['delete']);

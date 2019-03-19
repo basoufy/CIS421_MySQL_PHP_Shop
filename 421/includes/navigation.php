@@ -23,6 +23,7 @@ $pquery = $db->query($sql);
             </li>
         <?php endwhile; ?>
             <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
+            <li><a href="/421/admin/login.php">Login</a></li>
         </ul>
     </div>
 </nav>
